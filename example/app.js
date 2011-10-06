@@ -1,27 +1,18 @@
-// This is a test harness for your module
-// You should do something interesting in this harness 
-// to test out the module and to provide instructions 
-// to users on how to use it by example.
-
-
+var number_to_dial = "123456790" // CHANGE THIS
 // open a single window
 var window = Ti.UI.createWindow({
 	backgroundColor:'white'
 });
-var label = Ti.UI.createLabel();
-window.add(label);
+var but = Ti.UI.createButton({
+    title: "Dial Static Number";
+});
+but.addEventListener("click", function () {
+    Ti.Platform.openURL('tel:' + number_to_dial);
+    if	(Titanium.Platform.name == 'iPhone OS' && parseInt(Titanium.Platform.version.split(".")[0], 10) >=4) {
+        Ti.App.iOS.registerBackgroundService({
+            url:'bg.js'
+        });
+    }
+});
+window.add(but);
 window.open();
-
-// TODO: write your module tests here
-var coretelephony = require('com.yydigital.coretelephony');
-Ti.API.info("module is => " + coretelephony);
-
-label.text = coretelephony.example();
-
-Ti.API.info("module exampleProp is => " + coretelephony.exampleProp);
-coretelephony.exampleProp = "This is a test value";
-
-if (Ti.Platform.name == "android") {
-	var proxy = coretelephony.createExample({message: "Creating an example Proxy"});
-	proxy.printMessage("Hello world!");
-}

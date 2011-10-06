@@ -27,16 +27,16 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 328089023;
-			PBXWorkspaceStateSaveDate = 328089023;
+			PBXPerProjectTemplateStateSaveDate = 328423060;
+			PBXWorkspaceStateSaveDate = 328423060;
 		};
 		perUserProjectItems = {
+			9C2A55381393569D007C528D /* PBXTextBookmark */ = 9C2A55381393569D007C528D /* PBXTextBookmark */;
+			9C2A55391393569D007C528D /* PBXTextBookmark */ = 9C2A55391393569D007C528D /* PBXTextBookmark */;
 			9C2F06B1138E0E44007ED23C /* PBXTextBookmark */ = 9C2F06B1138E0E44007ED23C /* PBXTextBookmark */;
 			9C753320138CD3A2006876CF /* PBXTextBookmark */ = 9C753320138CD3A2006876CF /* PBXTextBookmark */;
 			9C753321138CD3A2006876CF /* PBXTextBookmark */ = 9C753321138CD3A2006876CF /* PBXTextBookmark */;
 			9C939D87138E48E700D3FABE /* PBXTextBookmark */ = 9C939D87138E48E700D3FABE /* PBXTextBookmark */;
-			9C939D88138E48E700D3FABE /* PBXTextBookmark */ = 9C939D88138E48E700D3FABE /* PBXTextBookmark */;
-			9C939D89138E48E700D3FABE /* PBXTextBookmark */ = 9C939D89138E48E700D3FABE /* PBXTextBookmark */;
 		};
 		sourceControlManager = 9C75330F138CC156006876CF /* Source Control */;
 		userBuildSettings = {
@@ -47,7 +47,7 @@
 	};
 	24DD6CF71134B3F500162E58 /* ComYydigitalCoretelephonyModule.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {523, 635}}";
+			sepNavIntBoundsRect = "{{0, 0}, {523, 630}}";
 			sepNavSelRange = "{462, 0}";
 			sepNavVisRange = "{0, 484}";
 			sepNavWindowFrame = "{{1078, 11}, {732, 1043}}";
@@ -82,6 +82,26 @@
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 290}";
 		};
+	};
+	9C2A55381393569D007C528D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF71134B3F500162E58 /* ComYydigitalCoretelephonyModule.h */;
+		name = "ComYydigitalCoretelephonyModule.h: 18";
+		rLen = 0;
+		rLoc = 462;
+		rType = 0;
+		vrLen = 484;
+		vrLoc = 0;
+	};
+	9C2A55391393569D007C528D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF71134B3F500162E58 /* ComYydigitalCoretelephonyModule.h */;
+		name = "ComYydigitalCoretelephonyModule.h: 18";
+		rLen = 0;
+		rLoc = 462;
+		rType = 0;
+		vrLen = 484;
+		vrLoc = 0;
 	};
 	9C2F06B1138E0E44007ED23C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -136,26 +156,6 @@
 		rType = 0;
 		vrLen = 996;
 		vrLoc = 2210;
-	};
-	9C939D88138E48E700D3FABE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 24DD6CF71134B3F500162E58 /* ComYydigitalCoretelephonyModule.h */;
-		name = "ComYydigitalCoretelephonyModule.h: 22";
-		rLen = 0;
-		rLoc = 331;
-		rType = 0;
-		vrLen = 641;
-		vrLoc = 0;
-	};
-	9C939D89138E48E700D3FABE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 24DD6CF71134B3F500162E58 /* ComYydigitalCoretelephonyModule.h */;
-		name = "ComYydigitalCoretelephonyModule.h: 18";
-		rLen = 0;
-		rLoc = 462;
-		rType = 0;
-		vrLen = 484;
-		vrLoc = 0;
 	};
 	D2AAC07D0554694100DB518D /* coretelephony */ = {
 		activeExec = 0;
