@@ -6,6 +6,22 @@ call states and call-ids (not CLID). It was developed because I needed a way of 
 to the app after a call that was initiated from the app ended. See the example for how 
 to do it.
 
+Note that this only works with iOS SDK 4.x and above. You can do something like this to conditionally use the module:
+if	(Titanium.Platform.name == 'iPhone OS' && parseInt(Titanium.Platform.version.split(".")[0], 10) >=4) {
+    // Use code
+}
+
+
+Quick Start
+-----------
+1. Download: com.yydigital.coretelephony-iphone-0.1.zip
+2. Unzip it to the titanium directory. (In iOS it is /Library/Application\ Support/Titanium/)
+3. Modify the tiapp.xml file to include the module, for example:
+    <modules>
+        <module version="0.1">com.yydigital.coretelephony</module>
+    </modules>
+
+
 Code snippets
 -------------
 
@@ -14,6 +30,9 @@ To import the module:
 
 To get the current calls:
   var calls = core.getCurrentCalls();
+
+Check if there are active calls:
+  var are_there_active_calls = (calls != null);
 
 This can be used to get the number of active calls:
   var active_calls_number = calls.length;
@@ -27,7 +46,8 @@ And callid (which is not CLID so pretty useless):
 
 Compiled Module
 ---------------
-Just download coretelephony.tar.gz of you are not interested in the code.
+Just download com.yydigital.coretelephony-iphone-0.1.zip of you are not interested in the source.
+
 
 Contributions
 -------------
