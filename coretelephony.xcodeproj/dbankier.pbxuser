@@ -27,16 +27,16 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 328423060;
-			PBXWorkspaceStateSaveDate = 328423060;
+			PBXPerProjectTemplateStateSaveDate = 339977142;
+			PBXWorkspaceStateSaveDate = 339977142;
 		};
 		perUserProjectItems = {
-			9C2A55381393569D007C528D /* PBXTextBookmark */ = 9C2A55381393569D007C528D /* PBXTextBookmark */;
-			9C2A55391393569D007C528D /* PBXTextBookmark */ = 9C2A55391393569D007C528D /* PBXTextBookmark */;
 			9C2F06B1138E0E44007ED23C /* PBXTextBookmark */ = 9C2F06B1138E0E44007ED23C /* PBXTextBookmark */;
-			9C753320138CD3A2006876CF /* PBXTextBookmark */ = 9C753320138CD3A2006876CF /* PBXTextBookmark */;
 			9C753321138CD3A2006876CF /* PBXTextBookmark */ = 9C753321138CD3A2006876CF /* PBXTextBookmark */;
 			9C939D87138E48E700D3FABE /* PBXTextBookmark */ = 9C939D87138E48E700D3FABE /* PBXTextBookmark */;
+			9CFC61861443A55C001D206D /* PBXTextBookmark */ = 9CFC61861443A55C001D206D /* PBXTextBookmark */;
+			9CFC61871443A55C001D206D /* PBXTextBookmark */ = 9CFC61871443A55C001D206D /* PBXTextBookmark */;
+			9CFC618A1443A57B001D206D /* PBXTextBookmark */ = 9CFC618A1443A57B001D206D /* PBXTextBookmark */;
 		};
 		sourceControlManager = 9C75330F138CC156006876CF /* Source Control */;
 		userBuildSettings = {
@@ -47,7 +47,7 @@
 	};
 	24DD6CF71134B3F500162E58 /* ComYydigitalCoretelephonyModule.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {523, 630}}";
+			sepNavIntBoundsRect = "{{0, 0}, {523, 625}}";
 			sepNavSelRange = "{462, 0}";
 			sepNavVisRange = "{0, 484}";
 			sepNavWindowFrame = "{{1078, 11}, {732, 1043}}";
@@ -63,7 +63,7 @@
 	};
 	24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {847, 558}}";
+			sepNavIntBoundsRect = "{{0, 0}, {642, 625}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 478}";
 			sepNavWindowFrame = "{{15, 10}, {732, 1043}}";
@@ -78,30 +78,11 @@
 	};
 	24DE9E1011C5FE74003F90F6 /* ComYydigitalCoretelephonyModuleAssets.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {847, 558}}";
+			sepNavIntBoundsRect = "{{0, 0}, {495, 625}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 290}";
+			sepNavWindowFrame = "{{15, 10}, {732, 1043}}";
 		};
-	};
-	9C2A55381393569D007C528D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 24DD6CF71134B3F500162E58 /* ComYydigitalCoretelephonyModule.h */;
-		name = "ComYydigitalCoretelephonyModule.h: 18";
-		rLen = 0;
-		rLoc = 462;
-		rType = 0;
-		vrLen = 484;
-		vrLoc = 0;
-	};
-	9C2A55391393569D007C528D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 24DD6CF71134B3F500162E58 /* ComYydigitalCoretelephonyModule.h */;
-		name = "ComYydigitalCoretelephonyModule.h: 18";
-		rLen = 0;
-		rLoc = 462;
-		rType = 0;
-		vrLen = 484;
-		vrLoc = 0;
 	};
 	9C2F06B1138E0E44007ED23C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -127,16 +108,6 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	9C753320138CD3A2006876CF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 24DE9E1011C5FE74003F90F6 /* ComYydigitalCoretelephonyModuleAssets.m */;
-		name = "ComYydigitalCoretelephonyModuleAssets.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 290;
-		vrLoc = 0;
-	};
 	9C753321138CD3A2006876CF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
@@ -156,6 +127,36 @@
 		rType = 0;
 		vrLen = 996;
 		vrLoc = 2210;
+	};
+	9CFC61861443A55C001D206D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DE9E1011C5FE74003F90F6 /* ComYydigitalCoretelephonyModuleAssets.m */;
+		name = "ComYydigitalCoretelephonyModuleAssets.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 290;
+		vrLoc = 0;
+	};
+	9CFC61871443A55C001D206D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF71134B3F500162E58 /* ComYydigitalCoretelephonyModule.h */;
+		name = "ComYydigitalCoretelephonyModule.h: 18";
+		rLen = 0;
+		rLoc = 462;
+		rType = 0;
+		vrLen = 484;
+		vrLoc = 0;
+	};
+	9CFC618A1443A57B001D206D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+		name = "titanium.xcconfig: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
 	};
 	D2AAC07D0554694100DB518D /* coretelephony */ = {
 		activeExec = 0;

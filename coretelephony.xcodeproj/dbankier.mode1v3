@@ -267,14 +267,18 @@
 							<array>
 								<string>0867D691FE84028FC02AAC07</string>
 								<string>08FB77AEFE84172EC02AAC07</string>
+								<string>32C88DFF0371C24200C91783</string>
+								<string>0867D69AFE84028FC02AAC07</string>
+								<string>AACBBE490F95108600F1A2B1</string>
+								<string>034768DFFF38A50411DB9C8B</string>
 								<string>1C37FABC05509CD000000102</string>
 								<string>1CC0EA4004350EF90044410B</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
-									<integer>1</integer>
+									<integer>8</integer>
+									<integer>6</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -298,7 +302,7 @@
 							<real>354</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>596 59 929 909 0 0 1920 1058 </string>
+						<string>597 59 929 909 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -314,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ComYydigitalCoretelephonyModule.h</string>
+								<string>titanium.xcconfig</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,18 +326,18 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ComYydigitalCoretelephonyModule.h</string>
+										<string>titanium.xcconfig</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>9C2A55391393569D007C528D</string>
+										<string>9CFC618A1443A57B001D206D</string>
 										<key>history</key>
 										<array>
-											<string>9C753320138CD3A2006876CF</string>
-											<string>9C753321138CD3A2006876CF</string>
 											<string>9C2F06B1138E0E44007ED23C</string>
 											<string>9C939D87138E48E700D3FABE</string>
-											<string>9C2A55381393569D007C528D</string>
+											<string>9CFC61861443A55C001D206D</string>
+											<string>9CFC61871443A55C001D206D</string>
+											<string>9C753321138CD3A2006876CF</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -345,14 +349,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {553, 662}}</string>
+								<string>{{0, 0}, {553, 657}}</string>
 								<key>RubberWindowFrame</key>
-								<string>596 59 929 909 0 0 1920 1058 </string>
+								<string>597 59 929 909 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>662pt</string>
+							<string>657pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -365,14 +369,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 667}, {553, 201}}</string>
+								<string>{{0, 662}, {553, 206}}</string>
 								<key>RubberWindowFrame</key>
-								<string>596 59 929 909 0 0 1920 1058 </string>
+								<string>597 59 929 909 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>201pt</string>
+							<string>206pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -391,9 +395,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>9C2A553A1393569D007C528D</string>
+				<string>9CFC616C1443A3BA001D206D</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>9C2A553B1393569D007C528D</string>
+				<string>9CFC616D1443A3BA001D206D</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -535,7 +539,7 @@
 		<string>/Users/dbankier/Titanium-Projects/CoreTelephony/coretelephony.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>596 59 929 909 0 0 1920 1058 </string>
+	<string>597 59 929 909 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -612,7 +616,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>9C75330D138CC156006876CF</string>
-				<string>9C2A553C1393569D007C528D</string>
+				<string>9CFC616E1443A3BA001D206D</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
