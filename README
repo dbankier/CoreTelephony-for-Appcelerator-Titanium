@@ -1,7 +1,7 @@
 CoreTelephony Module for Titanium
 =================================
 
-This module exposes SOME of the iOS CoreTelephony Framework. It retreive the current
+This module exposes SOME of the iOS CoreTelephony Framework. It retreives the current
 call states and call-ids (not CLID). It was developed because I needed a way of returning
 to the app after a call that was initiated from the app ended. See the example for how 
 to do it.
@@ -22,14 +22,13 @@ You can get the call state (diailing, incomming, connected and disconnected) of 
   calls[0].callState;
 
 And callid (which is not CLID so pretty useless):
-  calls[0].callID
+  calls[0].callID;
 
 
 Compiled Module
 ---------------
-
+Just download coretelephony.tar.gz of you are not interested in the code.
 
 Contributions
 -------------
-I'm have for this module to grow/improve. Drop me an email:
-bankierd@gmail.com 
+I'm happy for this module to grow/improve. Just send me a message.
