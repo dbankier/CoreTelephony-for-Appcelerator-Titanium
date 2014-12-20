@@ -5,6 +5,7 @@
  * and licensed under the Apache Public License (version 2)
  */
 #import "TiModule.h"
+
 @interface ComYydigitalCoretelephonyModule : TiModule 
 {
 }
@@ -16,6 +17,5 @@
 @property(nonatomic,readonly) id INCOMING;
 @property(nonatomic,readonly) id CONNECTED;
 @property(nonatomic,readonly) id DISCONNECTED;
-
 
 @end

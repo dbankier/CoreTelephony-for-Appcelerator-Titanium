@@ -2,16 +2,17 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 0.1
+version: 0.2
+apiversion: 2
 description: My module
 author: Your Name
 license: Specify your license
-copyright: Copyright (c) 2010 by Your Company
+copyright: Copyright (c) 2014 by Your Company
 
 
 # these should not be edited
-name: coretelephony
+name: CoreTelephony
 moduleid: com.yydigital.coretelephony
-guid: 1c74c30c-b16e-452a-8222-02cbd3472dc5
+guid: 7dd1875e-38c5-48c5-b00f-e8be0a767ca9
 platform: iphone
-minsdk: 1.6.0
+minsdk: 3.2.2.GA
