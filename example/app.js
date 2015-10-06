@@ -4,7 +4,7 @@ var window = Ti.UI.createWindow({
 	backgroundColor:'white'
 });
 var but = Ti.UI.createButton({
-    title: "Dial Static Number";
+    title: "Dial Static Number"
 });
 but.addEventListener("click", function () {
     Ti.Platform.openURL('tel:' + number_to_dial);
