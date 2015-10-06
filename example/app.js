@@ -1,4 +1,4 @@
-var number_to_dial = "123456790" // CHANGE THIS
+var number_to_dial = "123456790"; // CHANGE THIS
 // open a single window
 var window = Ti.UI.createWindow({
 	backgroundColor:'white'
